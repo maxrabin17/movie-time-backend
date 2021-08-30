@@ -1,0 +1,2 @@
+class WatchLater < ApplicationRecord
+end
