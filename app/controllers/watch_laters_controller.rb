@@ -17,6 +17,8 @@ class WatchLatersController < ApplicationController
         end
     end
 
+    
+
     private
 
     def watch_later_params
