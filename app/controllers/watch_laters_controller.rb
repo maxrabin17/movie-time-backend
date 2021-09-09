@@ -2,11 +2,8 @@ class WatchLatersController < ApplicationController
 
 
     def create
-        # byebug
         movie = WatchLater.create(watch_later_params)
-        # if movie.save!
-            render json: movie, status: :created
-        # end
+        render json: movie, status: :created
     end
 
     def destroy
